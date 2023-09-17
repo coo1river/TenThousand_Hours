@@ -14,6 +14,7 @@ export const QuoteFirst = styled.strong`
 export const QuoteSecond = styled.div`
   display: flex;
   gap: 14px;
+  margin-bottom: 78px;
 
   text-align: center;
 

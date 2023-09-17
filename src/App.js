@@ -7,8 +7,20 @@ ${reset}
 body{
   background-color: #5b2386;
   color: white;
+}
 
-  @font-face {
+input, button {
+  border: none;
+  margin: 0;
+  padding: 0;
+  font-family: unset;
+}
+
+input:focus{
+  outline: none;
+}
+
+@font-face {
     font-family: 'OTEnjoystoriesBA';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/OTEnjoystoriesBA.woff') format('woff');
     font-weight: normal;
@@ -21,8 +33,6 @@ body{
     font-weight: normal;
     font-style: normal;
 }
-}
-
 `;
 
 function App() {
