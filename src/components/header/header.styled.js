@@ -18,9 +18,9 @@ export const QuoteSecond = styled.div`
 
   text-align: center;
 
-  font-family: "GmarketSansMedium";
+  font-family: "gmarketLight";
   font-size: 18px;
-  font-weight: 400;
+  font-weight: bold;
   line-height: normal;
 
   &::before,
@@ -51,6 +51,7 @@ export const QuoteSecond = styled.div`
 
 export const QuoteStrong = styled.strong`
   font-size: 24px;
+  font-family: "gmarketMedium";
   font-weight: 700;
 `;
 

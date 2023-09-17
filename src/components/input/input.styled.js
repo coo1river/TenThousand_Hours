@@ -3,9 +3,9 @@ import styled from "styled-components";
 export const InputCtn = styled.div`
   text-align: center;
 
-  font-family: "GmarketSansMedium";
+  font-family: "gmarketLight";
   font-size: 24px;
-  font-weight: 400;
+  font-weight: bold;
 
   input {
     width: 148px;
@@ -20,7 +20,8 @@ export const InputCtn = styled.div`
 
   input::placeholder {
     text-align: center;
-    font-family: "GmarketSansMedium";
+    font-family: "gmarketLight";
+    font-weight: bold;
     font-size: 24px;
     color: #babcbe;
   }
@@ -38,7 +39,7 @@ export const TimeBtn = styled.button`
   border-radius: 56px;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
 
-  font-family: "GmarketSansMedium";
+  font-family: "gmarketBold";
   font-size: 24px;
   font-weight: 700;
   text-align: center;
@@ -49,5 +50,5 @@ export const ClickIcon = styled.img`
   height: 72px;
 
   position: absolute;
-  bottom: -100px;
+  bottom: 5px;
 `;
