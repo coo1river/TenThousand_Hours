@@ -13,6 +13,7 @@ export const InputCtn = styled.div`
     padding: 17px 41px 16px 39px;
     margin: 0 17px 27px 17px;
 
+    font-family: "gmarketMedium";
     font-size: 24px;
 
     border-radius: 7px;
@@ -27,6 +28,7 @@ export const InputCtn = styled.div`
   }
 
   input:focus {
+    outline: slateblue;
   }
 `;
 
@@ -43,6 +45,10 @@ export const TimeBtn = styled.button`
   font-size: 24px;
   font-weight: 700;
   text-align: center;
+
+  &:hover {
+    cursor: pointer;
+  }
 `;
 
 export const ClickIcon = styled.img`
