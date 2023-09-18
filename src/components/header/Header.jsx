@@ -8,14 +8,17 @@ import {
   QuoteFirst,
   QuoteStrong,
   ClockImg,
+  Title,
 } from "./header.styled";
 
 export default function Header() {
   return (
     <>
       <HeaderStyle>
-        <ClockImg src={Bg} />
-        <LogoImg src={Logo} alt="" />
+        <Title>
+          <ClockImg src={Bg} />
+          <LogoImg src={Logo} alt="" />
+        </Title>
         <QuoteFirst>“연습은 어제의 당신보다 당신을 더 낫게 만든다.”</QuoteFirst>
         <QuoteSecond>
           <div className="container">

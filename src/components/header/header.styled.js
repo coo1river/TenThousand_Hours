@@ -3,25 +3,23 @@ import before from "../../image/before.png";
 import after from "../../image/after.png";
 
 export const QuoteFirst = styled.strong`
-  margin-top: 66px;
-  margin-bottom: 78px;
-
   font-family: "OTEnjoystoriesBA";
   font-size: 36px;
   color: yellow;
+
+  margin-bottom: 50px;
 `;
 
 export const QuoteSecond = styled.div`
   display: flex;
   gap: 14px;
-  margin-bottom: 78px;
+  margin-bottom: 100px;
 
   text-align: center;
 
-  font-family: "gmarketLight";
-  font-size: 18px;
-  font-weight: bold;
-  line-height: normal;
+  font-family: "gmarketMedium";
+  font-size: 17px;
+  line-height: 1.7;
 
   &::before,
   &::after {
@@ -49,8 +47,17 @@ export const QuoteSecond = styled.div`
   }
 `;
 
+export const Title = styled.div`
+  margin: 50px 0;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+`;
+
 export const QuoteStrong = styled.strong`
-  font-size: 24px;
+  font-size: 20px;
   font-family: "gmarketMedium";
   font-weight: 700;
 `;
@@ -67,11 +74,10 @@ export const LogoImg = styled.img`
   height: 112px;
 
   position: absolute;
-  top: 200px;
 `;
 
 export const ClockImg = styled.img`
-  width: 221px;
+  position: relative;
+  width: 221.604px;
   height: 225px;
-  margin-top: 140px;
 `;

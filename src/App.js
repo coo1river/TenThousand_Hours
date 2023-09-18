@@ -16,9 +16,6 @@ input, button {
   font-family: unset;
 }
 
-input:focus{
-  outline: none;
-}
 
 @font-face {
     font-family: 'OTEnjoystoriesBA';

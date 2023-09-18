@@ -1,49 +1,50 @@
 import styled from "styled-components";
 
-export const InputCtn = styled.div`
+export const InputCtn = styled.form`
   text-align: center;
 
-  font-family: "gmarketLight";
+  font-family: "gmarketMedium";
   font-size: 24px;
-  font-weight: bold;
+
+  p {
+    font-size: 20px;
+    margin-bottom: 20px;
+    line-height: 17px;
+  }
 
   input {
-    width: 148px;
-    height: 24px;
-    padding: 17px 41px 16px 39px;
-    margin: 0 17px 27px 17px;
-
+    width: 200px;
+    padding: 15px 20px;
+    margin: 0 15px;
+    border-radius: 10px;
+    font-size: 20px;
     font-family: "gmarketMedium";
-    font-size: 24px;
-
-    border-radius: 7px;
   }
 
   input::placeholder {
     text-align: center;
-    font-family: "gmarketLight";
-    font-weight: bold;
+    font-family: "gmarketMedium";
     font-size: 24px;
     color: #babcbe;
   }
 
   input:focus {
-    outline: slateblue;
+    outline: 4px solid #a874cf;
   }
 `;
 
 export const TimeBtn = styled.button`
   background-color: #fcee21;
   color: #5b2386;
-  padding: 21px 49px;
-  margin-top: 115px;
+  margin-top: 70px;
+  border-radius: 30px;
+  padding: 10px 40px;
 
-  border-radius: 56px;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
 
   font-family: "gmarketBold";
-  font-size: 24px;
-  font-weight: 700;
+  font-size: 20px;
+  font-weight: bold;
   text-align: center;
 
   &:hover {
@@ -54,7 +55,8 @@ export const TimeBtn = styled.button`
 export const ClickIcon = styled.img`
   width: 64px;
   height: 72px;
+  margin-left: 3px;
 
   position: absolute;
-  bottom: 5px;
+  bottom: -5px;
 `;

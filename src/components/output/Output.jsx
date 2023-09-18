@@ -1,5 +1,6 @@
 import React from "react";
+import Input from "../input/Input";
 
 export default function Output() {
-  return <div>output</div>;
+  return <div></div>;
 }
