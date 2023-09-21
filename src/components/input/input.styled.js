@@ -16,6 +16,7 @@ export const InputCtn = styled.form`
     width: 200px;
     padding: 15px 20px;
     margin: 0 15px;
+    vertical-align: middle;
     border-radius: 10px;
     font-size: 20px;
     font-family: "gmarketMedium";
