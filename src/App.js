@@ -1,4 +1,4 @@
-import Router from "./router/Router";
+hi import Router from "./router/Router";
 import { createGlobalStyle } from "styled-components";
 import reset from "styled-reset";
 
@@ -44,6 +44,15 @@ input, button {
     font-weight: normal;
     font-style: normal;
     }
+    
+    @font-face {
+   font-family: 'Noto Sans KR';
+   font-style: normal;
+   font-weight: 400;
+   src: url(/fonts/NotoSansKr/NotoSansKR-Regular.woff2) format('woff2'),
+        url(/fonts/NotoSansKr/NotoSansKR-Regular.woff) format('woff'),
+        url(/fonts/NotoSansKr/NotoSansKR-Regular.otf) format('opentype');
+ }
 `;
 
 function App() {
