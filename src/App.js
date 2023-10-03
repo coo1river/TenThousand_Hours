@@ -9,7 +9,7 @@ body{
   color: white;
 }
 
-input, button {
+input1, button {
   border: none;
   margin: 0;
   padding: 0;
