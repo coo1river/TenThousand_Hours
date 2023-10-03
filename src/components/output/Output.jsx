@@ -1,6 +1,7 @@
 import React from "react";
 
 export default function Output() {
+<<<<<<< HEAD
   return (
     <div>
       <p>
@@ -10,4 +11,7 @@ export default function Output() {
       </p>
     </div>
   );
+=======
+  return <div>output</div>;
+>>>>>>> e1ad05c28e6679cd019301bc59b64aa8c0c581d5
 }
